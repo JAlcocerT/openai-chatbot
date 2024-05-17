@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y git
 #WORKDIR /app
 
 # Clone the repository
-RUN git clone https://github.com/JAlcocerT/openai-chatbot
+#RUN git clone https://github.com/JAlcocerT/openai-chatbot
+COPY . ./
 
 WORKDIR /openai-chatbot
 
