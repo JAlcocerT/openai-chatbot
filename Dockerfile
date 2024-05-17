@@ -3,14 +3,15 @@ FROM python:3.11
 # Install git
 RUN apt-get update && apt-get install -y git
 
-# Set up the working directory
-#WORKDIR /app
-
 # Clone the repository
 #RUN git clone https://github.com/JAlcocerT/openai-chatbot
-COPY . ./
+#WORKDIR /openai-chatbot
 
-WORKDIR /openai-chatbot
+# Set up the working directory
+#WORKDIR /app
+COPY . ./app
+WORKDIR ./app
+
 
 # Install Python requirements
 RUN pip install -r requirements.txt #all at once
