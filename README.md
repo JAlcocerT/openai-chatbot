@@ -1,3 +1,11 @@
+
+
+```sh
+streamlit run streamlit_app.py
+```
+
+---
+
 # 🤖💬 OpenAI Chatbot
 
 A conversational chatbot built in Python using Streamlit and the OpenAI LLM model GPT 3.5.

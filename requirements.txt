@@ -1,2 +1,2 @@
-streamlit
-openai
+streamlit==1.26.0 #https://pypi.org/project/streamlit/#history
+openai==0.28.0 #https://pypi.org/project/openai/#history
