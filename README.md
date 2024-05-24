@@ -1,9 +1,26 @@
-
+* Prepare your environment:
 
 ```sh
+git clone https://github.com/JAlcocerT/openai-chatbot
+
+python -m venv openaichatbot #create it
+
+openaichatbot\Scripts\activate #activate venv (windows)
+source openaichatbot/bin/activate #(linux)
+
+#deactivate #when you are done
+```
+
+* Run the App:
+
+```sh
+#pip install -r requirements.txt #all at once
 streamlit run streamlit_app.py
 ```
 
+* Use your OpenAI API: https://platform.openai.com/docs/models/continuous-model-upgrades
+
+> Forked from [this project](https://github.com/dataprofessor/openai-chatbot)
 ---
 
 # 🤖💬 OpenAI Chatbot

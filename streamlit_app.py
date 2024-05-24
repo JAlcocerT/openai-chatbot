@@ -16,7 +16,7 @@ with st.sidebar:
     # Dropdown menu to select the model
     model_choice = st.selectbox(
         'Choose the model:',
-        ['gpt-3.5-turbo', 'gpt-4-turbo-preview'],
+        ['gpt-3.5-turbo', 'gpt-4-turbo-preview','gpt-4o'],
         index=0  # Default selection is gpt-3.5-turbo
     )
 
