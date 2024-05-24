@@ -1,3 +1,5 @@
+[![CI/CD Pipeline](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GH_Actions_CICD.yml/badge.svg)](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GH_Actions_CICD.yml)
+
 * Prepare your environment:
 
 ```sh
