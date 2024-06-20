@@ -1,4 +1,4 @@
-[![CI/CD Pipeline](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GH_Actions_CICD.yml/badge.svg)](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GH_Actions_CICD.yml)
+[![CI/CD Pipeline](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GithubActions-CICD.yml/badge.svg)](https://github.com/JAlcocerT/openai-chatbot/actions/workflows/GithubActions-CICD.yml)
 
 * Prepare your environment:
 

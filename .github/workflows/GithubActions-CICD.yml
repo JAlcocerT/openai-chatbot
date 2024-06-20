@@ -21,7 +21,7 @@ jobs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.CICD_TOKEN_AskPDF }} #Settings -> Dev Settings -> PAT's -> Tokens +++ Repo Settings -> Secrets & variables -> Actions -> New repo secret 
+        password: ${{ secrets.CICD_OpenAIChatBot }} #Settings -> Dev Settings -> PAT's -> Tokens +++ Repo Settings -> Secrets & variables -> Actions -> New repo secret 
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v2

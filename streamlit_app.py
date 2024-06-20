@@ -8,10 +8,10 @@ with st.sidebar:
     #     openai.api_key = st.secrets['OPENAI_API_KEY']
     # else:
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
-    if not (openai.api_key.startswith('sk-') and len(openai.api_key)==51):
-        st.warning('Please enter your credentials!', icon='⚠️')
+    if not (openai.api_key.startswith('sk-') ): #and len(openai.api_key)==51
+        st.warning('Please, enter your credentials', icon='⚠️')
     else:
-        st.success('Proceed to entering your prompt message!', icon='👉')
+        st.success('Proceed to entering your prompts!', icon='👉')
 
     # Dropdown menu to select the model
     model_choice = st.selectbox(
